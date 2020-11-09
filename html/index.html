@@ -20,14 +20,13 @@
     }
     
     .container {
-        border: 1px solid #000;
         width: 900px;
         height: 500px;
         margin: 0px auto;
         text-align: center;
     }
     
-    .box {
+    .box1 {
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         background-image: url(../images/imgCover.png);
@@ -95,33 +94,41 @@
         margin-left: 15px;
     }
     
-    .text p {
+    .box2 p {
         color: blue;
     }
     
-    .text h1 {
+    .box2 h1 {
         margin: 10px 0 10px;
     }
     
     a {
         text-decoration: none;
     }
+    
+    .img4 {
+        fill: orange;
+    }
 </style>
 
 <body>
     <div class="container">
-        <div class="box">
+        <div class="box1">
             <div class="icon1"><img class="img1" src="../images/icon.png" alt="icon1"></div>
             <div class="icon2"><img class="img2" src="https://www.flaticon.com/svg/static/icons/svg/482/482887.svg" alt="icon2"></div>
             <div class="icon3">
                 <img class="img3" src="https://www.flaticon.com/svg/static/icons/svg/482/482887.svg" alt="icon3">
-                <p>Edit cover photo</p>
+                <a href="https://www.youtube.com">
+                    <p>Edit cover photo</p>
+                </a>
+
             </div>
         </div>
-        <div class="container text">
+        <div class="container box2">
             <h1>Thanh Ba</h1>
             <p><a target="_blank" href="https://www.youtube.com/"> Add Bio </a></p>
         </div>
+        <div><img class="img4" src="https://t3.ftcdn.net/jpg/02/96/91/42/240_F_296914204_8F0EmCJh8nVo7c0MYJtwUdEqnG1xs6Bq.jpg" alt=""></div>
     </div>
 </body>
 
