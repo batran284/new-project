@@ -5,19 +5,22 @@
 }
 
 .box {
-    border: 1px solid #000;
-    line-height: 500px;
     margin: 0 auto;
     width: 800px;
     height: 500px;
     background: #484564;
+    position: relative;
 }
 
 p {
-    width: 600px;
+    padding: 5px;
+    width: 800px;
     height: 200px;
     border: 1px solid #000;
-    color: #fff;
-    height: 200px;
-    padding: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
 }
