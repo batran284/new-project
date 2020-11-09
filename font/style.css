@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.box {
+    border: 1px solid #000;
+    line-height: 500px;
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
+    background: #484564;
+}
+
+p {
+    width: 600px;
+    height: 200px;
+    border: 1px solid #000;
+    color: #fff;
+    height: 200px;
+    padding: 20px;
+}

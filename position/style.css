@@ -27,7 +27,6 @@
     right: 0;
     left: 0;
     top: 0;
-    bottom: 0;
     background: #008000;
 }
 
@@ -51,6 +50,23 @@
     bottom: 0;
 }
 
+.Center {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: fixed;
+}
+
+.rightCenter {
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    position: fixed;
+}
+
 .CLT {
     background: red;
     position: fixed;
@@ -71,7 +87,7 @@
     left: 0;
 }
 
-.CRB {
+.CBR {
     background: red;
     position: fixed;
     top: 100px;
@@ -81,7 +97,7 @@
     left: 300px;
 }
 
-.CLB {
+.CBL {
     background: red;
     position: fixed;
     top: 100px;
@@ -90,3 +106,5 @@
     right: 300px;
     left: 0;
 }
+
+.boxCenter {}
