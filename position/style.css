@@ -10,25 +10,83 @@
     line-height: 50px;
 }
 
-.topLeft {
-    position: fixed;
+.box1 {
     width: 150px;
     height: 50px;
+    background: #008000;
+}
+
+.topLeft {
+    position: fixed;
     background: #008000;
 }
 
 .topCenter {
     position: fixed;
-    margin: 0 auto;
-    width: 150px;
-    height: 50px;
-    background: red;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: #008000;
 }
 
 .topRight {
     position: fixed;
     right: 0;
-    width: 150px;
-    height: 50px;
     background: #008000;
+}
+
+.leftCenter {
+    left: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    background: #008000;
+}
+
+.bottomLeft {
+    position: fixed;
+    bottom: 0;
+}
+
+.CLT {
+    background: red;
+    position: fixed;
+    top: 0;
+    bottom: 100px;
+    margin: auto;
+    right: 0;
+    left: 300px;
+}
+
+.CRT {
+    background: red;
+    position: fixed;
+    top: 0;
+    bottom: 100px;
+    margin: auto;
+    right: 300px;
+    left: 0;
+}
+
+.CRB {
+    background: red;
+    position: fixed;
+    top: 100px;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    left: 300px;
+}
+
+.CLB {
+    background: red;
+    position: fixed;
+    top: 100px;
+    bottom: 0;
+    margin: auto;
+    right: 300px;
+    left: 0;
 }
