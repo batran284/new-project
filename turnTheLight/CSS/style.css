@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  width: 600px;
+  height: 400px;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body.lightOff {
+  background: #424141;
+}
+
+body.lightOff .label1 img {
+  visibility: hidden;
+}
+
+body.lightOff img {
+  display: block;
+  border-radius: 50px;
+}
+
+input {
+  display: none;
+}
+
+.label1 {
+  position: absolute;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  /* Standard syntax */
+}
+
+.label2 {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.label2 img {
+  display: none;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+/*# sourceMappingURL=style.css.map */

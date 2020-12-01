@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 700px;
+    height: 500px;
+    margin: 50px auto;
+    border: 1px solid #000;
+    .boxTop {
+        border: 1px solid #000;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px
+    }
+    .boxContain {
+        padding: 20px;
+    }
+}

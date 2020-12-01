@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body.lightOff {
+    background: #424141;
+    .label1 img {
+        visibility: hidden;
+    }
+    img {
+        display: block;
+        border-radius: 50px;
+    }
+}
+
+input {
+    display: none;
+}
+
+.label1 {
+    position: absolute;
+    user-select: none;
+    /* Standard syntax */
+}
+
+.label2 {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    img {
+        display: none
+    }
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
