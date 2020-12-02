@@ -68,5 +68,50 @@
         width: 300px;
         border: 1px solid #000;
         margin: 0 auto;
+        text-align: center;
+    }
+}
+
+body.on {
+    .c {
+        visibility: hidden;
+    }
+    .box51 {
+        h4::before {
+            content: "found gold 3";
+        }
+    }
+}
+
+body.onn {
+    .b {
+        visibility: hidden;
+    }
+    .box51 {
+        h4::before {
+            content: "found gold 2";
+        }
+    }
+}
+
+body.onnn {
+    .a {
+        visibility: hidden;
+    }
+    .box51 {
+        h4::before {
+            content: "found gold 1";
+        }
+    }
+}
+
+body.off {
+    .div {
+        visibility: hidden;
+    }
+    .box51 {
+        h4::before {
+            content: "Boommmm!!!!!!! You lose!";
+        }
     }
 }
