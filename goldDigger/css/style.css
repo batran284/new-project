@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.box {
+  width: 700px;
+  height: 545px;
+  margin: 50px auto;
+  border: 1px solid #000;
+}
+
+.box div {
+  margin: 5px 0;
+}
+
+.box .box11 {
+  border: 1px solid #000;
+  height: 30px;
+  text-align: center;
+}
+
+.box .box21 {
+  border: 1px solid #000;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box .box21 .box21-right {
+  margin-left: auto;
+}
+
+.box .box21 .box21-right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.box .box31 {
+  height: 300px;
+  border: 1px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.box .box31 .div {
+  cursor: pointer;
+  width: 150px;
+  height: 60px;
+  border: 1px solid #000;
+}
+
+.box .box31 .span {
+  width: 80px;
+  height: 50px;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.box .box31 .a {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.box .box31 .c {
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+
+.box .box41 {
+  height: 30px;
+  border: 1px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box .box41 button:nth-child(2) {
+  margin-left: auto;
+}
+
+.box .box51 {
+  height: 100px;
+  width: 300px;
+  border: 1px solid #000;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */

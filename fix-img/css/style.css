@@ -31,4 +31,9 @@
   height: 100%;
   margin-right: 10px;
 }
+
+.box span {
+  font-weight: bold;
+  font-size: 18px;
+}
 /*# sourceMappingURL=style.css.map */
